@@ -1,0 +1,56 @@
+.skills_container {
+  background-color: #6c696c;
+  width: 100%;
+  padding: 0px 3vw;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  line-height: 5vw;
+  color: #c4c4c4;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  font-size: 3.5vw;
+  font-weight: 100;
+  border-bottom: 3px solid #c4c4c4;
+  padding-left: 25px;
+}
+
+.skills_languages,
+.skills_framworks,
+.skills_designing {
+  height: "100%";
+  width: 40vw;
+  /* border: 2px solid #c4c4c4; */
+  padding: 0;
+  /* border-radius: 1vw; */
+  margin-top: 4vw;
+}
+
+.skills_box {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: fit-content;
+  padding-left: 4vh;
+}
+
+.skills_boy {
+  margin-top: 3vw;
+  width: 16;
+  height: 80vh;
+  opacity: 0.88;
+}
+
+/* width */
+.skills_box::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Handle */
+.skills_box::-webkit-scrollbar-thumb {
+  background: #4fd96669;
+}
