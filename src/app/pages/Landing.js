@@ -2,6 +2,7 @@ import Navigation from "../components/Navigation";
 import ProfilePanel from "../components/ProfilePanel";
 import React, { useEffect, useState } from "react";
 import Skills from "../components/Skills";
+import SkillsCard from "../components/SkillsCard";
 
 const Landing = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -18,17 +19,15 @@ const Landing = () => {
   });
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "row",
-        width: "100%",
-      }}
-    >
-      <ProfilePanel height={height} />
-      <Skills height={height} />
-      <div style={{ right: 0 }}>
-        <Navigation height={height} />
+    <div className="animate__animated animate__fadeIn animate__faster">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+        }}
+      >
+        <Skills height={height} />
       </div>
     </div>
   );

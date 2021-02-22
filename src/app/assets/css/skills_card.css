@@ -1,0 +1,84 @@
+.skills_card_container {
+  padding: 2vh 3vh;
+  height: fit-content;
+  width: 90%;
+  background: rgba(62, 54, 54, 0.6);
+  box-shadow: -3px 0px 0px 0px rgba(3, 248, 97, 0.923);
+  border-radius: 10px;
+  margin-top: 3vw;
+}
+
+.skills_element_container {
+  margin-top: 12px;
+  margin-left: 50px;
+}
+
+.skills_card_title {
+  margin: 0;
+  padding: 2vw 1vw;
+  font-family: Microsoft Yi Baiti;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 1vw;
+  color: #fcf7fc;
+  opacity: 0.8;
+}
+
+.skills_elelment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4.5vw;
+}
+
+.skills_element_title {
+  font-family: Microsoft Yi Baiti;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  color: #f5eded;
+  width: 20%;
+  text-align: left;
+  opacity: 0.9;
+}
+
+.skills_element_level_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3vw;
+  width: 70%;
+}
+
+.skills_element_level_background {
+  background: #c4c4c4;
+  border-radius: 6.61689px;
+  height: 50%;
+  width: 100%;
+}
+
+.skills_element_level_foreground {
+  position: absolute;
+  height: 50%;
+  background: rgba(79, 217, 101, 0.91);
+  border-radius: 6.61689px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills_percentage {
+  font-family: Microsoft Yi Baiti;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: rgb(2, 2, 2);
+  align-self: flex-end;
+
+  width: fit-content;
+  text-align: center;
+  padding: auto;
+  margin-right: 10px;
+}

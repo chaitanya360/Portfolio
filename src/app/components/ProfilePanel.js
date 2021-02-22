@@ -3,7 +3,7 @@ import "../assets/css/profile_panel.css";
 
 const ProfilePanel = ({ height }) => {
   return (
-    <div style={{ height: height }}>
+    <div style={{ height }}>
       <div className="left_panel_container">
         <img src={profile_pic} alt="profile image" className="profile_pic" />
         <div className="greetings">

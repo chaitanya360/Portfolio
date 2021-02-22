@@ -5,42 +5,65 @@ import { ReactComponent as Framworks } from "../assets/svgs/skills_framworks.svg
 import { ReactComponent as Boy } from "../assets/svgs/skills_boy.svg";
 import { ReactComponent as Designing } from "../assets/svgs/skills_designing.svg";
 import Landing from "../pages/Landing";
+import SkillsCard from "./SkillsCard";
+import ProfilePanel from "./ProfilePanel";
 
 const Skills = ({ height }) => {
-  useEffect(() => console.log(Languages), []);
-  console.log(Landing);
+  const skills = [
+    {
+      title: "Languages",
+      elements: [
+        { title: "HTML", percentage: "75%" },
+        { title: "JavaScript", percentage: "70%" },
+        { title: "C++", percentage: "65%" },
+        { title: "Java", percentage: "50%" },
+        { title: "Python", percentage: "70%" },
+        { title: "SQL", percentage: "60%" },
+      ],
+    },
+    {
+      title: "Framworks/Libraries",
+      elements: [
+        { title: "React", percentage: "85%" },
+        { title: "React Native", percentage: "80%" },
+        { title: "Django", percentage: "70%" },
+      ],
+    },
+    {
+      title: "Designing",
+      elements: [
+        { title: "Photoshop", percentage: "85%" },
+        { title: "Figma", percentage: "80%" },
+      ],
+    },
+  ];
 
   return (
-    <div className="skills_container">
-      <h1 className="header">Skills</h1>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-        }}
-      >
-        <div className="skills_box" style={{ height: height - 130 }}>
-          <div className="skills_languages">
-            <Languages width="100%" height="100%" style={styles.svg_border} />
+    <div
+      className="skills_container"
+      style={{ display: "flex", flexDirection: "row", padding: 0 }}
+    >
+      <ProfilePanel height={height} />
+      <div className="skills_container">
+        <h1 className="header">Skills</h1>
+        <div style={styles.container}>
+          <div className="skills_box" style={{ height: height - 150 }}>
+            {skills.map((skill) => (
+              <SkillsCard skills={skill} key={skill.title} />
+            ))}
           </div>
-          <div className="skills_framworks">
-            <Framworks width="100%" height="100%" style={styles.svg_border} />
-          </div>
-          <div className="skills_designing">
-            <Designing width="100%" height="100%" style={styles.svg_border} />
-          </div>
+          <Boy className="skills_boy" />
         </div>
-
-        <Boy className="skills_boy" />
       </div>
     </div>
   );
 };
 
 const styles = {
-  svg_border: {
-    border: "2px solid rgba(79,217,101,0.4)",
-    borderRadius: "2.5vh",
+  container: {
+    display: "flex",
+    flexDirection: "row",
+    height: "100%",
   },
 };
 

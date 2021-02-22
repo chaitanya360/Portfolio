@@ -1,7 +1,11 @@
 .skills_container {
   background-color: #6c696c;
   width: 100%;
-  padding: 0px 3vw;
+  padding: 10px 3vw;
+  height: 100%;
+  /* position: fixed; */
+  /* border-bottom: 2px solid black; */
+  padding-top: 0;
 }
 
 .header {
@@ -17,32 +21,24 @@
   padding-left: 25px;
 }
 
-.skills_languages,
-.skills_framworks,
-.skills_designing {
-  height: "100%";
-  width: 40vw;
-  /* border: 2px solid #c4c4c4; */
-  padding: 0;
-  /* border-radius: 1vw; */
-  margin-top: 4vw;
+.skills_boy {
+  margin-top: 2vw;
+  height: 40vw;
+  /* display: none; */
+  opacity: 0.88;
 }
 
 .skills_box {
-  display: flex;
-  flex: 1;
-  padding: 0;
-  flex-direction: column;
+  width: 100%;
+  margin: 3vw 2vw;
+  margin-bottom: 5px;
   overflow-y: scroll;
-  width: fit-content;
-  padding-left: 4vh;
-}
-
-.skills_boy {
-  margin-top: 3vw;
-  width: 16;
-  height: 80vh;
-  opacity: 0.88;
+  overflow-x: hidden;
+  padding: 10px;
+  padding-left: 15px;
+  padding-top: 0;
+  background-color: #3f3e3e21;
+  border-radius: 20px;
 }
 
 /* width */
@@ -52,5 +48,14 @@
 
 /* Handle */
 .skills_box::-webkit-scrollbar-thumb {
+  background: #4fd96669;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
   background: #4fd96669;
 }

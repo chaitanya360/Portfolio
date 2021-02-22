@@ -1,0 +1,71 @@
+.project_page {
+  background-color: #6c696c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.project_page .header {
+  padding-right: 9vw;
+  padding-left: 3vw;
+  background-color: #3f3e3e21;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+.project_page_body {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects_container {
+  border-radius: 20px;
+  height: 80vh;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: #3f3e3e21;
+}
+
+/* width */
+.projects_container::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Handle */
+.projects_container::-webkit-scrollbar-thumb {
+  background: #4fd96669;
+}
+
+.projects_navigation_container {
+  height: fit-content;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 80%;
+  position: sticky;
+  top: 0px;
+}
+
+.projects_navigation_container span {
+  height: 25vh;
+  color: rgba(255, 255, 255, 0.801);
+  background-color: #3f3e3e3a;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.disable-select {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
