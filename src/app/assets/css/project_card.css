@@ -4,22 +4,25 @@
   border-radius: 10px;
   border-radius: 14.3846px;
   padding: 10px;
-  padding-left: 50px;
+  padding-left: 5vh;
   padding-bottom: 20px;
+  width: 80%;
 }
 
 .project_desc {
-  font-family: Microsoft YaHei UI;
+  font-family: "Titillium Web", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 1.3vw;
   padding: 2vw;
-  line-height: 40px;
+  line-height: 4vh;
   color: #d8d8d8;
 }
 
 .project_title {
-  font-family: Microsoft Yi Baiti;
+  /* font-family: Microsoft YaHei UI; */
+  font-family: "Titillium Web", sans-serif;
+
   font-style: normal;
   font-weight: bolder;
   font-size: 3.5vw;
@@ -35,17 +38,17 @@
 .project_btn {
   cursor: pointer;
   opacity: 0.97;
-  font-family: Microsoft YaHei UI;
+  font-family: "Titillium Web", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 2vh;
-  line-height: 30px;
+  line-height: 6vh;
   text-align: center;
   text-decoration: none;
   color: #f2f2f2;
   background: rgba(79, 217, 102, 0.747);
   border-radius: 8px;
-  padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 2vw;
@@ -53,4 +56,30 @@
 
 .project_btn:hover {
   background: rgba(79, 217, 102, 1);
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .project_card_container {
+    background: rgba(62, 54, 54, 0.6);
+    box-shadow: 0px -4px 0px 0px rgba(3, 248, 97, 0.923);
+    border-radius: 10px;
+    border-radius: 14.3846px;
+    width: fit-content;
+    padding: 10px;
+  }
+
+  .project_title {
+    /* font-family: Microsoft YaHei UI; */
+    font-size: 7.5vw;
+
+    color: #17ff5d9a;
+  }
+
+  .project_desc {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 4.3vw;
+    /* padding: 2vw; */
+    line-height: normal;
+  }
 }

@@ -39,6 +39,7 @@
   padding-top: 0;
   background-color: #3f3e3e21;
   border-radius: 20px;
+  height: 75vh;
 }
 
 /* width */
@@ -58,4 +59,35 @@ body::-webkit-scrollbar {
 /* Handle */
 body::-webkit-scrollbar-thumb {
   background: #4fd96669;
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .skills_boy {
+    display: none;
+  }
+
+  .skills_container {
+    padding-right: 0;
+    padding: 0;
+    margin-left: 8vw;
+  }
+
+  .header {
+    margin: 0;
+    padding: 10px;
+    font-size: 3.5vh;
+    padding-left: 45px;
+  }
+
+  .skills_box {
+    width: 100%;
+    margin: 3vw 2vw;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+  }
 }

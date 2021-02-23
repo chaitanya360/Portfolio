@@ -9,17 +9,19 @@
 }
 
 .skills_element_container {
-  margin-top: 12px;
-  margin-left: 50px;
+  margin-top: 2vw;
+  margin-left: 5vw;
 }
 
 .skills_card_title {
   margin: 0;
   padding: 2vw 1vw;
-  font-family: Microsoft Yi Baiti;
+  /* font-family: Microsoft Yi Baiti; */
+  font-family: "Titillium Web", sans-serif;
+
   font-style: normal;
   font-weight: normal;
-  font-size: 4vw;
+  font-size: 2.5vw;
   line-height: 1vw;
   color: #fcf7fc;
   opacity: 0.8;
@@ -33,10 +35,12 @@
 }
 
 .skills_element_title {
-  font-family: Microsoft Yi Baiti;
+  /* font-family: Microsoft Yi Baiti; */
+  font-family: "Titillium Web", sans-serif;
+
   font-style: normal;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #f5eded;
   width: 20%;
   text-align: left;
@@ -70,7 +74,9 @@
 }
 
 .skills_percentage {
-  font-family: Microsoft Yi Baiti;
+  /* font-family: Microsoft Yi Baiti; */
+  font-family: "Titillium Web", sans-serif;
+
   font-style: normal;
   font-weight: 500;
   font-size: 1.3vw;
@@ -81,4 +87,43 @@
   text-align: center;
   padding: auto;
   margin-right: 10px;
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .skills_card_container {
+    width: 90%;
+    padding: 10px;
+  }
+  .skills_element_title {
+    font-size: medium;
+  }
+
+  .skills_element_level_container {
+    width: 70%;
+    height: 4.5vh;
+  }
+
+  .skills_percentage {
+    font-size: 0.8rem;
+    width: fit-content;
+  }
+
+  .skills_elelment {
+    height: 5.5vh;
+    justify-content: space-around;
+  }
+
+  .skills_element_container {
+    margin-top: 2vw;
+    margin-left: 0vw;
+  }
+
+  .skills_card_title {
+    margin: 0;
+    padding: 3vw 2vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: x-large;
+  }
 }

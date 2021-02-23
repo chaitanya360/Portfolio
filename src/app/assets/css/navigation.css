@@ -2,7 +2,6 @@
   background-color: #3f3131;
   flex-direction: column;
   flex: 1;
-  width: 50px;
   right: 0;
   position: fixed;
 }
@@ -21,4 +20,27 @@
 
 #root {
   background-color: #6c696c;
+  height: 100vh;
+}
+
+:root {
+  background-color: #6c696c;
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .navigation_container {
+    background-color: #3f3131;
+    width: 8vw;
+    left: 0;
+  }
+
+  .navigation_container div {
+    height: 25vh;
+    font-size: 2vh;
+  }
+
+  body {
+    zoom: 93%;
+  }
 }

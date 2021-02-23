@@ -43,11 +43,11 @@ const Skills = ({ height }) => {
       className="skills_container"
       style={{ display: "flex", flexDirection: "row", padding: 0 }}
     >
-      <ProfilePanel height={height} />
-      <div className="skills_container">
+      <ProfilePanel height="100%" />
+      <div style={{ width: "100vw", backgroundColor: "#6c696c" }}>
         <h1 className="header">Skills</h1>
         <div style={styles.container}>
-          <div className="skills_box" style={{ height: height - 150 }}>
+          <div className="skills_box">
             {skills.map((skill) => (
               <SkillsCard skills={skill} key={skill.title} />
             ))}
@@ -63,7 +63,7 @@ const styles = {
   container: {
     display: "flex",
     flexDirection: "row",
-    height: "100%",
+    // height: "100%",
   },
 };
 

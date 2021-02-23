@@ -74,7 +74,7 @@ const mobileApps = [
   },
 ];
 
-const Project = () => {
+const Project = ({ height = "100vh" }) => {
   const [isWebsites, setIsWebsites] = useState(true);
   const [projects, setProjects] = useState(websites);
   const project_container_ref = useRef();
@@ -100,6 +100,7 @@ const Project = () => {
     <div
       className="project_page animate__animated animate__fadeIn animate__faster"
       id="project"
+      style={{ height: height }}
     >
       <h1 className="header">
         Projects
@@ -128,7 +129,7 @@ const Project = () => {
         </div>
       </h1>
       <div className="project_page_body">
-        <div style={{ width: "100%", marginLeft: "3vw", marginTop: "1vw" }}>
+        <div className="projects_outer_container">
           <div
             className="projects_container"
             style={{ display: "flex" }}
@@ -136,7 +137,7 @@ const Project = () => {
           >
             {projects.map((project) => (
               <ProjectCard
-                style={{ width: "80%", marginTop: "30px" }}
+                style={{ marginTop: "30px" }}
                 project={project}
                 key={project.title}
                 id={project.title}
@@ -145,7 +146,7 @@ const Project = () => {
             ))}
           </div>
         </div>
-        <Svg width="60vw" height="80vh" style={{ marginTop: "3vw" }} />
+        <Svg className="project_boy_svg" />
       </div>
     </div>
   );

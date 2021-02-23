@@ -16,6 +16,11 @@
   flex-direction: row;
 }
 
+.projects_outer_container {
+  width: "100%";
+  margin-top: "1vw";
+}
+
 .projects_container {
   border-radius: 20px;
   height: 80vh;
@@ -26,6 +31,8 @@
   padding-bottom: 20px;
   align-items: center;
   background-color: #3f3e3e21;
+  margin: 30px;
+  margin-bottom: 0;
 }
 
 /* width */
@@ -49,16 +56,18 @@
 }
 
 .projects_navigation_container span {
-  height: 25vh;
   color: rgba(255, 255, 255, 0.801);
   background-color: #3f3e3e3a;
-  border-radius: 10px;
+  border-radius: 1vw;
   font-size: 2vh;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin: 20px;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+
+  font-family: "Titillium Web", sans-serif;
+
+  margin: 1vh;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -68,4 +77,30 @@
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.project_boy_svg {
+  width: 60vw;
+  height: 80vh;
+  margin-top: 3vw;
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .project_boy_svg {
+    display: none;
+    opacity: 0;
+  }
+
+  .project_page {
+    margin-left: 8vw;
+  }
+
+  .projects_container {
+    margin: 0;
+  }
+
+  .project_page_body {
+    margin: 10px;
+  }
 }

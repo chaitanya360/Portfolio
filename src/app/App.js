@@ -4,9 +4,21 @@ import React, { useEffect, useState } from "react";
 import Navigation from "./components/Navigation";
 
 const App = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
+
+  const updateWidthAndHeight = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("resize", updateWidthAndHeight);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", updateWidthAndHeight);
+    };
   }, []);
 
   const handleScroll = () => {
@@ -18,9 +30,9 @@ const App = () => {
   const CurrentPage = () => {
     switch (currentPage) {
       case 0:
-        return <Landing />;
+        return <Landing height={height} />;
       case 1:
-        return <Project />;
+        return <Project height={height} />;
     }
   };
 

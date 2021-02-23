@@ -72,3 +72,19 @@ body {
   color: rgba(245, 237, 237, 0.67);
   font-family: "Titillium Web", sans-serif;
 }
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+  .left_panel_container {
+    position: relative;
+    width: 20vw;
+    background: #3e3636;
+    box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    display: none;
+  }
+}
