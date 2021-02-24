@@ -1,5 +1,7 @@
 import { ReactComponent as SvgPlaceholder } from "../assets/svgs/facebook_svg.svg";
 import React, { useState } from "react";
+import "../assets/css/icon_card_container.css";
+
 const IconCard = ({
   Svg = SvgPlaceholder,
   title = "Facebook",
@@ -8,20 +10,7 @@ const IconCard = ({
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div
-      style={{
-        height: "3vw",
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        padding: "5px 0px",
-        fontFamily: "Titillium Web, sans-serif",
-        margin: "5px 0px",
-        fontSize: "2vw",
-        color: "#c4c4c4",
-        cursor: "pointer",
-      }}
-    >
+    <div className="icon_card_inner_container">
       <span
         style={{ height: "100%" }}
         onMouseEnter={() => setShowDetails(true)}

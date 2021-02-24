@@ -7,7 +7,7 @@ import IconCard from "../components/IconCard";
 
 const Contact = () => {
   return (
-    <div className="animate__animated animate__fadeIn animate__faster">
+    <div className="animate__animated animate__fadeIn animate__faster contact_page_container">
       <h1 className="header">Contact</h1>
 
       <div
@@ -38,7 +38,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="message_container" style={{ marginTop: "10vw" }}>
+          <div className="message_container">
             <ContactMessage />
           </div>
         </div>
