@@ -124,6 +124,9 @@
   }
 
   .contact_form_btn {
-    font-size: large;
+    font-size: larger;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
   }
 }

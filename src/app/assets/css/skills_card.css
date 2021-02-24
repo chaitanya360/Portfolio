@@ -61,6 +61,7 @@
   border-radius: 6.61689px;
   height: 50%;
   width: 100%;
+  overflow: hidden;
 }
 
 .skills_element_level_foreground {

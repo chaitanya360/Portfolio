@@ -27,8 +27,12 @@ const ContactMessage = () => {
     )
       .then((response) => response.json())
       .then((result) => {
+        setName("");
+        setMsg("");
         if (result.ok) setMsgSendSuccess(true);
-        id = setTimeout(() => setMsgSendSuccess(false), 4000);
+        id = setTimeout(() => {
+          setMsgSendSuccess(false);
+        }, 4000);
       })
       .catch((error) => console.log("error", error));
   };
