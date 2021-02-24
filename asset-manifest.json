@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6707a2c3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9ccc5f40.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9ccc5f40.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e957c3be.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a434281f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a434281f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/js/2.05d5ceb4.chunk.js": "/Portfolio/static/js/2.05d5ceb4.chunk.js",
     "static/js/2.05d5ceb4.chunk.js.map": "/Portfolio/static/js/2.05d5ceb4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.6707a2c3.chunk.css.map": "/Portfolio/static/css/main.6707a2c3.chunk.css.map",
+    "static/css/main.e957c3be.chunk.css.map": "/Portfolio/static/css/main.e957c3be.chunk.css.map",
     "static/js/2.05d5ceb4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.05d5ceb4.chunk.js.LICENSE.txt",
+    "static/media/contact_svg.4a621401.svg": "/Portfolio/static/media/contact_svg.4a621401.svg",
+    "static/media/facebook_svg.b96e0907.svg": "/Portfolio/static/media/facebook_svg.b96e0907.svg",
+    "static/media/linkedin_svg.4617aee2.svg": "/Portfolio/static/media/linkedin_svg.4617aee2.svg",
     "static/media/profile.c9797f7b.png": "/Portfolio/static/media/profile.c9797f7b.png",
     "static/media/project_svg.90552ec8.svg": "/Portfolio/static/media/project_svg.90552ec8.svg",
-    "static/media/skills_boy.b7708f7c.svg": "/Portfolio/static/media/skills_boy.b7708f7c.svg",
+    "static/media/skills_boy.a0de8dd1.svg": "/Portfolio/static/media/skills_boy.a0de8dd1.svg",
     "static/media/skills_designing.4724915d.svg": "/Portfolio/static/media/skills_designing.4724915d.svg",
     "static/media/skills_framworks.0c5a49da.svg": "/Portfolio/static/media/skills_framworks.0c5a49da.svg",
-    "static/media/skills_languages.26fabc7e.svg": "/Portfolio/static/media/skills_languages.26fabc7e.svg"
+    "static/media/skills_languages.26fabc7e.svg": "/Portfolio/static/media/skills_languages.26fabc7e.svg",
+    "static/media/whatsapp_svg.e666f0af.svg": "/Portfolio/static/media/whatsapp_svg.e666f0af.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb6781d5.js",
     "static/js/2.05d5ceb4.chunk.js",
-    "static/css/main.6707a2c3.chunk.css",
-    "static/js/main.9ccc5f40.chunk.js"
+    "static/css/main.e957c3be.chunk.css",
+    "static/js/main.a434281f.chunk.js"
   ]
 }
