@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8b556c39.chunk.css",
-    "main.js": "/Portfolio/static/js/main.4fde2714.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.4fde2714.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a4eed9bc.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5e0567b4.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5e0567b4.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/js/2.05d5ceb4.chunk.js": "/Portfolio/static/js/2.05d5ceb4.chunk.js",
     "static/js/2.05d5ceb4.chunk.js.map": "/Portfolio/static/js/2.05d5ceb4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.8b556c39.chunk.css.map": "/Portfolio/static/css/main.8b556c39.chunk.css.map",
+    "static/css/main.a4eed9bc.chunk.css.map": "/Portfolio/static/css/main.a4eed9bc.chunk.css.map",
     "static/js/2.05d5ceb4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.05d5ceb4.chunk.js.LICENSE.txt",
     "static/media/contact_svg.4a621401.svg": "/Portfolio/static/media/contact_svg.4a621401.svg",
     "static/media/facebook_svg.b96e0907.svg": "/Portfolio/static/media/facebook_svg.b96e0907.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb6781d5.js",
     "static/js/2.05d5ceb4.chunk.js",
-    "static/css/main.8b556c39.chunk.css",
-    "static/js/main.4fde2714.chunk.js"
+    "static/css/main.a4eed9bc.chunk.css",
+    "static/js/main.5e0567b4.chunk.js"
   ]
 }
