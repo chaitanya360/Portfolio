@@ -74,7 +74,7 @@ const mobileApps = [
   },
 ];
 
-const Project = ({ height = "100vh" }) => {
+const Project = () => {
   const [isWebsites, setIsWebsites] = useState(true);
   const [projects, setProjects] = useState(websites);
   const project_container_ref = useRef();
@@ -100,7 +100,7 @@ const Project = ({ height = "100vh" }) => {
     <div
       className="project_page animate__animated animate__fadeIn animate__faster"
       id="project"
-      style={{ height: height }}
+      style={{ height: "100vh" }}
     >
       <h1 className="header">
         Projects

@@ -44,3 +44,25 @@
     zoom: 93%;
   }
 }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #a19fa1 !important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* Firefox 18- */
+  color: #a19fa1 !important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* Firefox 19+ */
+  color: #a19fa1 !important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #a19fa1 !important;
+}

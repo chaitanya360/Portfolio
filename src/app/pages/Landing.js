@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Skills from "../components/Skills";
 import SkillsCard from "../components/SkillsCard";
 
-const Landing = ({ height }) => {
+const Landing = () => {
   return (
     <div className="animate__animated animate__fadeIn animate__faster">
       <div
@@ -14,7 +14,7 @@ const Landing = ({ height }) => {
           width: "100%",
         }}
       >
-        <Skills height={height} />
+        <Skills />
       </div>
     </div>
   );

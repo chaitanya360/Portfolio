@@ -8,7 +8,7 @@ import Landing from "../pages/Landing";
 import SkillsCard from "./SkillsCard";
 import ProfilePanel from "./ProfilePanel";
 
-const Skills = ({ height }) => {
+const Skills = () => {
   const skills = [
     {
       title: "Languages",

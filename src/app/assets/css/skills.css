@@ -17,7 +17,7 @@
     sans-serif;
   font-size: 3.5vw;
   font-weight: 100;
-  border-bottom: 3px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
   padding-left: 25px;
 }
 
@@ -26,6 +26,7 @@
   height: 40vw;
   /* display: none; */
   opacity: 0.88;
+  margin-right: 40px;
 }
 
 .skills_box {
@@ -39,7 +40,8 @@
   padding-top: 0;
   background-color: #3f3e3e21;
   border-radius: 20px;
-  height: 75vh;
+  height: 80vh;
+  margin-right: 0;
 }
 
 /* width */
@@ -88,6 +90,8 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
+    padding-bottom: 20px;
   }
 }
